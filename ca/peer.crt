@@ -1,0 +1,106 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN=etcd-signer@1535538668
+        Validity
+            Not Before: Aug 29 10:41:12 2018 GMT
+            Not After : Aug 28 10:41:12 2023 GMT
+        Subject: CN=master.openshift.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:f3:85:41:a1:fc:96:45:8c:8a:71:41:63:4b:5c:
+                    37:3d:6d:38:4d:c5:0e:e2:db:bc:8d:00:72:e7:f4:
+                    8a:83:72:bd:88:bd:7d:17:b3:24:48:aa:44:8b:87:
+                    94:1f:0d:34:10:07:c1:a5:69:bc:71:ce:33:7f:ba:
+                    81:4b:20:89:9d:ff:6c:2f:e6:f4:fe:85:b6:41:43:
+                    fa:0d:99:f4:d8:fe:a3:06:1a:84:a5:b3:7d:f6:47:
+                    4d:17:f8:5b:01:a7:ae:c8:0f:2e:48:be:d0:d2:0a:
+                    63:ca:f4:d4:56:4e:cd:75:8d:85:58:1c:69:a8:16:
+                    56:05:68:7f:f9:97:54:e9:02:74:55:00:10:97:4f:
+                    c9:8d:9f:26:7c:00:cf:7f:7b:cf:c3:da:ea:80:93:
+                    fa:b7:2a:06:b9:4a:e6:22:7d:b2:b5:b4:02:39:54:
+                    7f:db:53:42:4b:93:08:12:9c:5f:b2:77:60:82:aa:
+                    25:31:55:bb:da:a3:99:bc:db:c6:1e:f8:0f:e6:dc:
+                    78:1b:15:ea:53:03:53:e0:85:e0:e8:66:11:63:05:
+                    23:f6:7a:ef:19:8a:63:da:8f:03:79:ae:8b:2f:3a:
+                    77:66:6c:1e:43:04:13:a7:f2:ae:48:62:c9:2c:c9:
+                    c1:ac:47:64:07:e5:54:a3:7e:38:32:73:da:8b:eb:
+                    4a:4b
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Authority Key Identifier: 
+                keyid:DA:DB:5F:CC:CC:A1:F3:D1:CE:21:75:AA:3B:5E:C4:5F:F7:30:1E:2B
+                DirName:/CN=etcd-signer@1535538668
+                serial:EA:09:73:89:B3:59:26:A5
+
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication, TLS Web Server Authentication
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 Subject Key Identifier: 
+                A4:2B:A2:72:35:29:B3:CF:48:FB:B6:AE:11:7D:6A:EA:46:70:A9:9C
+            X509v3 Subject Alternative Name: 
+                IP Address:192.168.210.108, DNS:master.openshift.com
+    Signature Algorithm: sha256WithRSAEncryption
+         bc:94:44:37:41:e6:71:c4:3b:b7:07:c9:e1:0d:03:ce:18:bb:
+         0d:58:f5:1b:7c:ac:88:e4:0f:20:56:c3:d1:a5:39:85:6d:c7:
+         97:59:9f:dc:3f:a8:be:c4:a2:36:b5:45:bc:88:91:d8:ad:9c:
+         2a:47:fb:d5:3c:85:e7:5e:ab:bf:d4:2e:e5:92:47:45:6d:62:
+         89:dd:37:7a:8f:1f:e9:ec:de:e2:08:82:da:74:56:5c:45:df:
+         45:4f:48:1c:c9:ac:85:3c:c4:b1:8f:92:6b:26:97:b6:67:63:
+         8b:5b:00:f5:16:da:26:4f:76:61:07:2b:a2:2e:de:3c:f1:c1:
+         f4:4d:45:57:e0:0d:3b:19:02:25:f4:07:ac:36:45:15:9e:ad:
+         86:97:9f:84:2e:cf:c7:77:de:82:a5:8e:83:2d:7b:53:82:30:
+         5c:31:07:f6:7f:46:c6:84:e6:1e:64:28:aa:24:95:0b:b5:60:
+         4c:d5:40:c0:a8:1a:1b:7c:c3:1a:f9:6e:e8:a6:88:1d:9c:9d:
+         d2:7b:ed:37:c7:36:72:43:a1:0f:eb:db:ec:b7:91:18:44:89:
+         e2:4b:0f:da:78:c9:60:a6:cd:d6:9c:2f:4c:32:ab:e9:ba:3c:
+         79:b2:64:f4:aa:8a:85:b6:80:76:3f:a1:b7:9e:81:31:8e:6f:
+         05:80:c7:74:12:49:e9:12:85:41:bd:5e:11:7a:cd:56:b1:18:
+         ab:dd:a7:f8:fe:70:e3:1e:81:40:5e:90:4f:ab:f0:96:9c:82:
+         c9:70:ec:d1:f5:68:6c:b7:5d:f2:2a:63:2a:90:0a:ad:bf:b0:
+         e7:70:8c:1e:09:e8:77:c9:c5:4a:66:09:37:a6:49:57:a2:40:
+         3c:62:d1:69:f2:2e:b7:12:da:75:24:8a:6e:50:b5:e1:0d:48:
+         ff:6f:cd:9f:3a:15:f6:d5:fc:b5:a3:07:0c:9b:e0:ae:9e:9c:
+         57:7d:a5:68:ad:01:ff:99:3e:26:00:36:c7:b4:55:07:ef:04:
+         55:cf:79:9e:66:63:dd:84:cd:98:50:60:c6:b4:cc:8a:42:6a:
+         5e:f1:4a:82:62:8b:bc:cc:2d:c4:20:3f:1d:4c:9f:75:07:be:
+         e5:09:e7:9e:38:0a:0a:41:f6:25:52:87:74:34:10:22:b9:49:
+         24:8c:b0:d8:ec:c7:ce:79:a9:5e:7b:98:02:5c:69:88:e5:ca:
+         dc:3a:46:fd:6e:8f:41:f8:f5:63:a9:6f:12:1a:59:ed:86:af:
+         73:be:ab:01:c3:19:ba:22:03:7c:2b:d0:9c:7e:cb:fd:2a:05:
+         84:21:6c:1c:d4:f1:c4:4b:4e:5e:97:27:84:9d:bc:cc:bd:7c:
+         b8:a3:33:2b:20:58:22:da
+-----BEGIN CERTIFICATE-----
+MIIEkjCCAnqgAwIBAgIBAjANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDDBZldGNk
+LXNpZ25lckAxNTM1NTM4NjY4MB4XDTE4MDgyOTEwNDExMloXDTIzMDgyODEwNDEx
+MlowHzEdMBsGA1UEAwwUbWFzdGVyLm9wZW5zaGlmdC5jb20wggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQDzhUGh/JZFjIpxQWNLXDc9bThNxQ7i27yNAHLn
+9IqDcr2IvX0XsyRIqkSLh5QfDTQQB8GlabxxzjN/uoFLIImd/2wv5vT+hbZBQ/oN
+mfTY/qMGGoSls332R00X+FsBp67IDy5IvtDSCmPK9NRWTs11jYVYHGmoFlYFaH/5
+l1TpAnRVABCXT8mNnyZ8AM9/e8/D2uqAk/q3Kga5SuYifbK1tAI5VH/bU0JLkwgS
+nF+yd2CCqiUxVbvao5m828Ye+A/m3HgbFepTA1PgheDoZhFjBSP2eu8ZimPajwN5
+rosvOndmbB5DBBOn8q5IYsksycGsR2QH5VSjfjgyc9qL60pLAgMBAAGjgdYwgdMw
+UQYDVR0jBEowSIAU2ttfzMyh89HOIXWqO17EX/cwHiuhJaQjMCExHzAdBgNVBAMM
+FmV0Y2Qtc2lnbmVyQDE1MzU1Mzg2NjiCCQDqCXOJs1kmpTAMBgNVHRMBAf8EAjAA
+MB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATALBgNVHQ8EBAMCBaAwHQYD
+VR0OBBYEFKQronI1KbPPSPu2rhF9aupGcKmcMCUGA1UdEQQeMByHBMCo0myCFG1h
+c3Rlci5vcGVuc2hpZnQuY29tMA0GCSqGSIb3DQEBCwUAA4ICAQC8lEQ3QeZxxDu3
+B8nhDQPOGLsNWPUbfKyI5A8gVsPRpTmFbceXWZ/cP6i+xKI2tUW8iJHYrZwqR/vV
+PIXnXqu/1C7lkkdFbWKJ3Td6jx/p7N7iCILadFZcRd9FT0gcyayFPMSxj5JrJpe2
+Z2OLWwD1FtomT3ZhByuiLt488cH0TUVX4A07GQIl9AesNkUVnq2Gl5+ELs/Hd96C
+pY6DLXtTgjBcMQf2f0bGhOYeZCiqJJULtWBM1UDAqBobfMMa+W7opogdnJ3Se+03
+xzZyQ6EP69vst5EYRIniSw/aeMlgps3WnC9MMqvpujx5smT0qoqFtoB2P6G3noEx
+jm8FgMd0EknpEoVBvV4Res1WsRir3af4/nDjHoFAXpBPq/CWnILJcOzR9Whst13y
+KmMqkAqtv7DncIweCeh3ycVKZgk3pklXokA8YtFp8i63Etp1JIpuULXhDUj/b82f
+OhX21fy1owcMm+CunpxXfaVorQH/mT4mADbHtFUH7wRVz3meZmPdhM2YUGDGtMyK
+Qmpe8UqCYou8zC3EID8dTJ91B77lCeeeOAoKQfYlUod0NBAiuUkkjLDY7MfOeale
+e5gCXGmI5crcOkb9bo9B+PVjqW8SGlnthq9zvqsBwxm6IgN8K9Ccfsv9KgWEIWwc
+1PHES05elyeEnbzMvXy4ozMrIFgi2g==
+-----END CERTIFICATE-----
